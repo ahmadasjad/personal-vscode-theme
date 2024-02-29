@@ -2,6 +2,7 @@
 	"name": "light: Personal color theme",
 	"colors": {
 		"editor.background": "#f5f5f5",
+		// "editor.background": "#8b8d3f",
 		"editor.foreground": "#333333",
         "list.activeSelectionIconForeground": "#fff"
 	},
@@ -14,7 +15,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#008DDE"
+				"foreground": "#8c8c8c"
 			}
 		},
 		{
@@ -22,7 +23,7 @@
 			"scope": "comment.block.preprocessor",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#AAAAAA"
+				"foreground": "#008DDE"
 			}
 		},
 		{
@@ -32,7 +33,7 @@
 				"comment.block.documentation"
 			],
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#8C8C8C"
 			}
 		},
 		{
@@ -77,7 +78,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#871094"
+				"foreground": "#660000"
 			}
 		},
 		{
@@ -87,7 +88,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#871094"
 			}
 		},
 		{
@@ -135,14 +136,14 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#871094"
 			}
 		},
 		{
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#067D17"
 			}
 		},
 		{
