@@ -67,7 +67,8 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"fontStyle": "italic",
+				"foreground": "#0033B3"
 			}
 		},
 		{
@@ -78,19 +79,26 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#660000"
-			}
-		},
-		{
-			"name": "Variables",
-			"scope": [
-				"variable",
-				"support.variable"
-			],
-			"settings": {
 				"foreground": "#871094"
 			}
 		},
+		// {
+		// 	"name": "Variables",
+		// 	"scope": [
+		// 		"variable",
+		// 		"support.variable"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#660000"
+		// 	}
+		// },
+		// {
+		// 	"name": "PHP: Variables dollar sign",
+		// 	"scope": "punctuation.definition.variable.php",
+		// 	"settings": {
+		// 		"foreground": "#660000"
+		// 	}
+		// },
 		{
 			"name": "Functions",
 			"scope": [
@@ -98,8 +106,8 @@
 				"support.function"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#AA3731"
+				// "fontStyle": "bold",
+				"foreground": "#00627A"
 			}
 		},
 		{
@@ -107,11 +115,52 @@
 			"scope": [
 				"entity.name.type",
 				"entity.other.inherited-class",
-				"support.class"
+				"support.class",
+				"punctuation.definition.begin.bracket.curly.php",
+				"punctuation.definition.end.bracket.curly.php"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#7A3E9D"
+				// "fontStyle": "bold",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Class property",
+			"scope": [
+				"variable.other.property",
+				"variable.other.class.php"
+			],
+			"settings": {
+				"foreground": "#871094"
+			}
+		},
+		{
+			"name": "PHP: self object",
+			"scope": [
+				"variable.language.this.php"
+			],
+			"settings": {
+				"foreground": "#660000"
+			}
+		},
+		{
+			"name": "PHP: common php Keywords",
+			"scope": [
+				"support.function.construct.output.php",
+				"support.function.basic_functions.php",
+				"constant.numeric.decimal.php"
+			],
+			"settings": {
+				"foreground": "#0033B3"
+			}
+		},
+		{
+			"name": "PHP: variable ",
+			"scope": [
+				"variable.other.php"
+			],
+			"settings": {
+				"foreground": "#660000"
 			}
 		},
 		{
@@ -167,13 +216,13 @@
 				"foreground": "#AB6526"
 			}
 		},
-		{
-			"name": "Punctuation",
-			"scope": "punctuation",
-			"settings": {
-				"foreground": "#777777"
-			}
-		},
+		// {
+		// 	"name": "Punctuation",
+		// 	"scope": "punctuation",
+		// 	"settings": {
+		// 		"foreground": "#777777"
+		// 	}
+		// },
 		{
 			"name": "HTML: Doctype Declaration",
 			"scope": [
